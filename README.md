@@ -22,8 +22,11 @@ Airports with strict slot control (e.g., JFK, LHR) allocate departure and arriva
 ### 🧩 Flow Overview
 
 AttachSlotsInteractor
+
 ├── closuresToClean → Removes outdated slot data
+
 ├── ConstructDepArrSlotTasks → Splits raw slot data into dep/arr tasks
+
 └── BuildResult → Finds matching slots for each flight/day
 
 
